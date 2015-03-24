@@ -1,0 +1,188 @@
+body {
+    background-color: #E6E6E6;
+    font-family: 'Open Sans', sans-serif;
+    color: #E6E6E6;
+}
+
+a:link {
+    color: #E6E6E6;
+}
+
+a:visited {
+    color: #E6E6E6;
+}
+
+#container {
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#container2 {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#devBox {
+    background-color: #3E5E5B;
+    height: 500px;
+    width: 450px;
+    position: absolute;
+    z-index: 100;
+    border-radius: 20px 0 0 20px;
+}
+
+#philBox {
+    background-color: #465166;
+    height: 500px;
+    width: 900px;
+    position: absolute;
+    border-radius: 20px;
+}
+
+#pic {
+    opacity: 0.5em;
+    cursor: auto;
+    margin-left: -100px;
+    margin-top: 150px;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    z-index: 150;
+    border: 10px #E6E6E6 solid;
+}
+
+#middleBar {
+    cursor: auto;
+    position: absolute;
+    height: 500px;
+    width: 10px;
+    z-index: 100;
+    background-color: #E6E6E6;
+    margin-left: 445px;
+}
+
+.name {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    z-index: 200;
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#matt {
+    margin-left: 310px;
+}
+
+#byrd {
+    margin-left: 470px;
+    font-size: 2.9em;
+}
+
+#developer {
+    margin-top: 215px;
+    margin-left: 20px;
+}
+
+#philosopher {
+    margin-top: 215px;
+    margin-left: 600px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#devContent {
+    position: absolute;
+    z-index: 300;
+    margin-top: 120px;
+}
+
+#philContent {
+    position: absolute;
+    z-index: 300;
+    margin-top: 200px;
+    margin-left: 170px;
+}
+
+.entry {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+}
+
+.entry li{
+    padding: 7px;
+}
+
+.entry h1{
+    margin-left: 35px;
+    margin-bottom: -10px;
+    padding-bottom: 0;
+}
+
+#skills {
+    display: none;
+}
+
+#projects {
+    display: none;
+}
+
+#courses {
+    display: none;
+}
+
+#papers {
+    display: none;
+}
+
+
+#teaching {
+    display: none;
+}
+
+
+#dphil {
+    font-size: 0.35em;
+    font-weight: normal;
+    margin: 10px;
+    display: none;
+    margin-top: 0;
+}
+
+#contactDetails {
+    position: absolute;
+    margin-top: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    text-align: center;
+    /*  text */
+    font-family: 'Open Sans', sans-serif;
+    color: #465166;
+    font-size: 0.75em;
+}
+
+#contactDetails a:link {
+    color: #465166;
+}
+
+#contactDetails a:visited {
+    color: #465166;
+}
